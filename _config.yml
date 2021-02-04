@@ -15,15 +15,15 @@ timezone: Asia/Shanghai
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # --------------------------
-title: 阿喵阿汪                          # the main title
 
-tagline: |+  # it will display as the sub-title
-  苟有恒，何必三更起五更眠；  
-  最无益，莫过一日曝十日寒   
+# the main title
+title: 阿喵阿汪
 
-description: |+                        # used by seo meta and the atom feed
-  苟有恒，何必三更起五更眠；
-  最无益，莫过一日曝十日寒
+# it will display as the sub-title 
+tagline: 这里记录值得分享的技术内容
+
+# used by seo meta and the atom feed
+description: 这里是阿喵阿汪的个人博客，记录值得分享的技术内容
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://lilifine.github.io'
