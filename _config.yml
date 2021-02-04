@@ -20,10 +20,10 @@ timezone: Asia/Shanghai
 title: 阿喵阿汪
 
 # it will display as the sub-title 
-tagline: 这里记录值得分享的技术内容
+tagline: 这里记录值得分享的技术
 
 # used by seo meta and the atom feed
-description: 这里是阿喵阿汪的个人博客，记录值得分享的技术内容
+description: 这里是阿喵阿汪的个人博客，记录值得分享的技术
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://lilifine.github.io'

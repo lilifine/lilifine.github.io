@@ -1494,7 +1494,7 @@ $sidebar-display: "sidebar-display";
       }
 
       %profile-ml {
-        margin-left: 4.5rem;
+        margin-left: 5rem;
       }
 
       #avatar {
@@ -1528,7 +1528,7 @@ $sidebar-display: "sidebar-display";
     } // .profile-wrapper (min-width: 1650px)
 
     ul {
-      padding-left: 2.5rem;
+      padding-left: 3.5rem;
 
       > li:last-child {
         > a {
@@ -1564,7 +1564,7 @@ $sidebar-display: "sidebar-display";
     }
 
     .sidebar-bottom {
-      padding-left: 3.5rem;
+      padding-left: 30%;
       width: 100%;
 
       &.justify-content-center {
