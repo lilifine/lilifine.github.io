@@ -24,14 +24,12 @@ platforms:
   -
     type: weibo
     name: 新浪微博
-    icon: "icon-weibo"
-    style: "color: rgb(216, 30, 6)"
+    icon: "fab fa-weibo"
     link: "http://service.weibo.com/share/share.php?title=TITLE&url=URL"
   -
     type: qq
     name: QQ
-    icon: "icon-xiaochengxuicon-"
-    style: "color: rgb(77, 175, 234)"
+    icon: "fab fa-qq"
     link: "http://connect.qq.com/widget/shareqq/index.html?url=URL&title=TITLE"
   # -
   #   type: 知乎
@@ -41,10 +39,8 @@ platforms:
   -
     type: wechat
     name: 微信
-    icon: "icon-weixin4"
-    style: "color: rgb(9, 187, 7)"
+    icon: "fab fa-weixin"
   -
     type: copy
     name: 复制链接
-    icon: "icon-lianjie"
-    style: "color: #6b1cf8"
+    icon: "fa fa-clipboard"

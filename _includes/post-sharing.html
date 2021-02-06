@@ -11,13 +11,13 @@
     {% for share in site.data.share.platforms %}
       {% assign link = share.link | replace: 'TITLE', title | replace: 'URL', url %}
       {% if share.type == 'wechat' %}
-        <i class="iconfont {{ share.icon }}" style="{{ share.style }}" onclick="showQRCode()" data-toggle="tooltip" data-placement="top" title="{{ share.name }}"></i>
+        <i class="fa-fw {{ share.icon }}" onclick="showQRCode()" data-toggle="tooltip" data-placement="top" title="{{ share.name }}"></i>
       {% elsif share.type == 'copy' %}
-        <i class="iconfont {{ share.icon }}" style="{{ share.style }}" onclick="copyLink()" data-toggle="tooltip" data-placement="top" title="{{ share.name }}"></i>
+        <i class="fa-fw {{ share.icon }}" onclick="copyLink()" data-toggle="tooltip" data-placement="top" title="{{ share.name }}"></i>
       {% else %}
         <a href="{{ link }}" data-toggle="tooltip" data-placement="top"
             title="{{ share.name }}" target="_blank" rel="noopener" aria-label="{{ share.name }}">
-          <i class="iconfont {{ share.icon }}" style="{{ share.style }}"></i>
+          <i class="fa-fw {{ share.icon }}"></i>
         </a>
       {% endif %}
     {% endfor %}

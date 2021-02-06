@@ -253,7 +253,7 @@
         @include btn-sharing-color(rgba(29, 161, 242, 1));
       }
       &.fa-facebook-square {
-        @include btn-sharing-color(rgb(66, 95, 156));
+        @include btn-sharing-color(rgb(49, 60, 85));
       }
       &.fa-telegram {
         @include btn-sharing-color(rgb(39, 159, 217));
@@ -261,12 +261,22 @@
       &.fa-weibo {
         @include btn-sharing-color(rgb(229, 20, 43));
       }
+      &.fa-qq {
+        @include btn-sharing-color(rgb(77, 175, 234));
+      }
+      &.fa-weixin {
+        @include btn-sharing-color(rgb(9, 187, 7));
+      }
     }
 
   } // .share-icons
 
   .fas.fa-link {
     @include btn-sharing-color(rgb(171, 171, 171));
+  }
+
+  .fa.fa-clipboard {
+    @include btn-sharing-color(rgb(7, 7, 7));
   }
 
 } // .share-wrapper
