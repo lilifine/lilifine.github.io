@@ -1,11 +1,11 @@
 #  License data
 
 license:
-  name: CC BY 4.0
-  link: "https://creativecommons.org/licenses/by/4.0/"
+  name: 知识共享许可协议4.0
+  rights: 知识共享署名-非商业性使用
+  link: "http://creativecommons.org/licenses/by-nc/4.0/"
 
-brief: Some rights reserved.
+brief: Some Rights Reserved.
 
 verbose: >-
-  Except where otherwise noted, the blog posts on this site are licensed
-  under the Creative Commons Attribution 4.0 International (CC BY 4.0) License by the author.
+  本站所有作品采用知识共享署名-非商业性使用 4.0 国际许可协议进行许可。

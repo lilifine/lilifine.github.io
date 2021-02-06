@@ -67,7 +67,7 @@
       {% endcapture %}
 
       {% if url %}
-      <a href="{{ url }}" aria-label="{{ entry.type }}"
+      <a href="{{ url }}" data-toggle="tooltip" data-placement="top" title="{{ entry.name }}"
         {% unless site.theme_mode %}class="order-{{ forloop.index | plus: 2 }}"{% endunless %}
         {% unless entry.noblank %}target="_blank" rel="noopener"{% endunless %}>
         <i class="{{ entry.icon }}"></i>
@@ -81,7 +81,7 @@
         <span class="icon-border order-2"></span>
       {% endif %}
 
-      <span id="mode-toggle-wrapper" class="order-1">
+      <span id="mode-toggle-wrapper" class="order-1" data-toggle="tooltip" data-placement="top" title="主题切换">
         {% include mode-toggle.html %}
       </span>
     {% endunless %}

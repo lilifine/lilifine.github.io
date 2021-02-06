@@ -13,6 +13,5 @@ function copyLink(url) {
   document.execCommand("copy");
   $temp.remove();
 
-  alert("Link copied successfully!");
-
+  alert("已将地址复制到剪切板！");
 }

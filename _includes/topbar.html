@@ -32,7 +32,16 @@
             {% assign url = '/' %}
           {% endif %}
           <a href="{{ url | relative_url }}">
-            {{ item | capitalize }}
+            <!-- {{ item | capitalize }} -->
+            {% if item == 'posts' %}
+              {{ '首页' }}
+            {% elsif item == 'tags' %}
+              {{ '标签' }}
+            {% elsif item == 'categories' %}
+              {{ '分类' }}
+            {% else %}
+              {{ ' item | capitalize ' }}
+            {% endif %}
           </a>
         </span>
 

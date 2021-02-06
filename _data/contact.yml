@@ -2,6 +2,7 @@
 
 -
   type: github
+  name: Github
   icon: 'fab fa-github-alt'
 #-
 #  type: twitter

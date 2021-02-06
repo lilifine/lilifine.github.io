@@ -2,18 +2,18 @@
 #  Icons from <https://fontawesome.com/>
 
 platforms:
-  -
-    type: Twitter
-    icon: "fab fa-twitter"
-    link: "https://twitter.com/intent/tweet?text=TITLE&url=URL"
-  -
-    type: Facebook
-    icon: "fab fa-facebook-square"
-    link: "https://www.facebook.com/sharer/sharer.php?title=TITLE&u=URL"
-  -
-    type: Telegram
-    icon: "fab fa-telegram"
-    link: "https://telegram.me/share?text=TITLE&url=URL"
+  # -
+  #   type: Twitter
+  #   icon: "fab fa-twitter"
+  #   link: "https://twitter.com/intent/tweet?text=TITLE&url=URL"
+  # -
+  #   type: Facebook
+  #   icon: "fab fa-facebook-square"
+  #   link: "https://www.facebook.com/sharer/sharer.php?title=TITLE&u=URL"
+  # -
+  #   type: Telegram
+  #   icon: "fab fa-telegram"
+  #   link: "https://telegram.me/share?text=TITLE&url=URL"
 
   # Uncomment below if you need to.
   # -
@@ -21,7 +21,30 @@ platforms:
   #   icon: "fab fa-linkedin"
   #   link: "https://www.linkedin.com/sharing/share-offsite/?url=URL"
   #
+  -
+    type: weibo
+    name: 新浪微博
+    icon: "icon-weibo"
+    style: "color: rgb(216, 30, 6)"
+    link: "http://service.weibo.com/share/share.php?title=TITLE&url=URL"
+  -
+    type: qq
+    name: QQ
+    icon: "icon-xiaochengxuicon-"
+    style: "color: rgb(77, 175, 234)"
+    link: "http://connect.qq.com/widget/shareqq/index.html?url=URL&title=TITLE"
   # -
-  #   type: Weibo
-  #   icon: "fab fa-weibo"
+  #   type: 知乎
+  #   icon: "icon-shejiaotubiao-46"
+  #   style: "color: rgb(73, 192, 251)"
   #   link: "http://service.weibo.com/share/share.php?title=TITLE&url=URL"
+  -
+    type: wechat
+    name: 微信
+    icon: "icon-weixin4"
+    style: "color: rgb(9, 187, 7)"
+  -
+    type: copy
+    name: 复制链接
+    icon: "icon-lianjie"
+    style: "color: #6b1cf8"
