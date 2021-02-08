@@ -6,9 +6,9 @@ categories: [Git与Github, Github]
 tags: [博客, Github Page, Jekyll]
 ---
 
-本文介绍如何基于`Github Page`和`Jekyll`搭建个人博客，当前博客就是示例。相比于在`CSDN`等网站上写博客，或者自己构建和维护一个网站，好处在于：
+本文介绍如何基于`Github Page`和`Jekyll`搭建个人博客。相比于在`CSDN`等网站上写博客，或者自己构建和维护一个网站，好处在于：
 
-- 可以自由选择和定制喜欢的博客界面。
+- 可以自由选择和定制博客的界面。
 - 不会弹出广告。
 - 可以基于`Markdown`写文章。
 - 搭建过程简单，后期基本不需要维护。
@@ -30,8 +30,8 @@ tags: [博客, Github Page, Jekyll]
 
     - 如果忘记勾选上述选项，则手动打开一个`cmd`窗口，并输入：
 
-        ```
-        ridk install
+        ```console
+        C:\Users\86186>ridk install
         ```
 
 2. 在`cmd`窗口中输入`3`并回车。
@@ -40,7 +40,7 @@ tags: [博客, Github Page, Jekyll]
 
 3. 重新打开一个`cmd`窗口，输入下列命令，确认`Ruby`和`RubyGem`已正确安装：
 
-    ```
+    ```console
     C:\Users\86186>ruby -v
     ruby 2.7.2p137 (2020-10-01 revision 5445e04352) [x64-mingw32]
 
@@ -70,13 +70,13 @@ tags: [博客, Github Page, Jekyll]
     ```
 6.  安装`Jekyll`和`Bundle`：
 
-    ```
+    ```console
     C:\Users\86186>gem install jekyll bundler
     ```
 
 7. 重新打开一个`cmd`窗口，确认`Jekyll`和`Bundle`已正确安装：
 
-    ```
+    ```console
     C:\Users\86186>jekyll -v
     jekyll 4.2.0
 
@@ -115,13 +115,13 @@ tags: [博客, Github Page, Jekyll]
 1. 在`Github`上`Fork`该仓库，并将`Fork`的仓库`clone`到本地。
 2. 在本地仓库的路径下，打开`Git Bash`，运行下列命令，从而安装依赖：
 
-    ```
+    ```console
     $ bundle
     ```
 
 3. 接着执行文件初始化：
 
-    ```
+    ```console
     $ bash tools/init.sh
     ```
 
@@ -129,7 +129,7 @@ tags: [博客, Github Page, Jekyll]
 
 5. 运行以下命令后，在浏览器中打开[http://localhost:4000](http://localhost:4000)，进行本地预览：
 
-    ```
+    ```console
     $ bundle exec jekyll s
     ```
 
@@ -141,12 +141,12 @@ tags: [博客, Github Page, Jekyll]
 
     ![Desktop View](/assets/img/github-page-blog/choose-github-page-source.png)
 
-    - 如果始终没有出现`gh-pages`分支，再从本地仓库推送新的`commit`到远端分支`origin/main`。
+    - 如果始终没有出现`gh-pages`分支，再次从本地仓库推送新的`commit`到远端分支`origin/main`。
     - 等待片刻，页面上将出现一行绿色的提示，表示网站已部署成功，如上图所示。
 
 9. 打开`https://<username>.github.io`，访问博客。
 
-最后，如果了解一些前端的知识，可以进一步修改博客的界面。当前博客就是基于[Chirpy主题](https://github.com/cotes2020/jekyll-theme-chirpy/)修改而来。
+最后，如果了解一些前端的知识，可以进一步修改博客的界面。[当前博客](https://github.com/lilifine/lilifine.github.io)就是基于[Chirpy主题](https://github.com/cotes2020/jekyll-theme-chirpy/)修改而来。
 
 ## 使用博客
 ---
