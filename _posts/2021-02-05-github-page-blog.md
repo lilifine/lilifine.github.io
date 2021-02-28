@@ -153,14 +153,6 @@ tags: [博客, Github Page, Jekyll]
 
 博客的文章需要基于`Markdown`撰写，具体的格式参考[此博客](https://chirpy.cotes.info/posts/write-a-new-post/)和[此示例](https://github.com/cotes2020/jekyll-theme-chirpy/tree/master/_posts)。
 
-推荐在本地使用[VSCode](https://code.visualstudio.com/)写文章，下载插件`Markdown Preview Enhanced`后，按`Ctrl + Shift + P`，再选择`Markdown: Markdown Preview Enhanced...`。
-
-![Desktop View](/assets/img/github-page-blog/open-markdown-preview.png)
-
-这样，就可以很方便地一边写`Markdown`文本，一边预览结果了。
-
-![Desktop View](/assets/img/github-page-blog/preview-markdown.png)
+推荐在本地使用[VSCode](https://code.visualstudio.com/)写文章，下载相应的插件后（例如`Markdown Preview Enhanced`），就可以很方便地一边写一边进行预览了。
 
 此外，用`VSCode`还可以很方便地将本地的修改提交并推送到远端仓库。
-
-![Desktop View](/assets/img/github-page-blog/use-vscode-git.png)
